@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/Kanit-Italic.ttf);
+}
+
+@font-face {
+    font-family: Kanit2;
+    src: url(../fonts/Kanit-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Rock;
+    src: url(../fonts/RocknRollOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bug;
+    src: url(../fonts/BungeeSpice-Regular.ttf);
+}
+
+@font-face {
+    font-family: Pav;
+    src: url(../fonts/Tourney_Condensed-Medium.ttf);
+}
+
+
+h1{
+    font-family: Bug;
+    text-align: center;
+    background:  bisque;
+    
+}
+
+h3{
+    font-family: Kanit2;
+    text-align: center;
+    background:  bisque;
+    
+}
+
+p{
+    font-family: Kanit2;
+    text-align: center;
+    background:  bisque;
+}
+
+/*-------------------------------------------------------------------*/
+
+body{
+    max-width:1200px ;
+    background-color: bisque;
+    margin: auto;
+    font-size: clamp(1em,3vw, 5em);
+}
+
+.caja_img{
+    width: 90%;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    color:blue;
+    font-size: .5em;
+}
